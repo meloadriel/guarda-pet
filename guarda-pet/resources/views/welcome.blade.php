@@ -29,9 +29,9 @@
             </ul>
         </div>
     </header>
-    <home class="bg-[#71D4FF] h-[100vh] flex">
+    <home class="bg-[#71D4FF] h-[90vh] flex">
         <div class="flex w-[1200px] mx-auto items-center justify-between">
-            <div class="flex flex-col pb-45">
+            <div class="flex flex-col pb-25">
                 <span class="text-white font-extrabold text-9xl pb-16"> Guarda Pet <i class="fa-solid fa-paw text-[#F58634] text-6xl"></i></span>
                 <p class="text-white font-semibold text-2xl pb-4"> Que tal compartilhar amor e cuidados? </p>
                 <p class="text-white font-semibold text-2xl w-[760px] pb-4"> Se você ama animais e quer adotar um cachorrinho ou
@@ -41,10 +41,9 @@
                     você a encontrar o companheiro ideal e encher sua vida
                     de amor. </p>
             </div>
-            <img class="mb-30"src="{{asset('img/imagens home.png')}}" alt="">
+            <img class="mb-10"src="{{asset('img/imagens home.png')}}" alt="">
         </div>
     </home>
-
 
     <script src="https://kit.fontawesome.com/573e44f26e.js" crossorigin="anonymous"></script>
 </body>
