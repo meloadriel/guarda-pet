@@ -63,14 +63,18 @@
                     </a>
                 </div>
                 <img class="pt-5 " src="{{ asset('img/adota 1.png') }}" alt="">
-                <img class="absolute bottom-[-25px] rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                <div class="w-full flex absolute bottom-[-25px] -left-150">
+                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                </div>
             </div>
 
         </div>
         <div class="flex w-[100%] h-[100vh] bg-[#71D4FF]">
             <div class="flex w-[1200px] mx-auto justify-between relative items-center">
                 <div class="flex flex-col items-center">
-                    <span class="text-white font-bold text-4xl pb-6 w-[500px] text-center"> Sou cidadão e quero cadastrar um pet
+                    <span class="text-white font-bold text-4xl pb-6 w-[500px] text-center"> Sou cidadão e quero
+                        cadastrar um pet
                         para adoção </span>
                     <a class="w-[445px] h-[70px] bg-[#F58634] rounded-[12px] flex items-center justify-center mb-6"
                         href="">
@@ -89,9 +93,42 @@
                     <p class="text-white text-2xl w-[325px] text-center"> Veja aqui todos os serviços para o seu
                         pet </p>
                 </div>
-                <img class="absolute bottom-[-25px] " src="{{ asset('img/div patas.png') }}" alt="">
+                <div class="w-full flex absolute bottom-[-25px] -left-150">
+                    <img class="" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="" src="{{ asset('img/div patas.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="flex w-[100%] h-[100vh] bg-[#FFB178]">
+            <div class="flex w-[1200px] mx-auto justify-center relative items-center">
+                <div class="flex flex-col items-center">
+                    <span class="text-white font-bold text-4xl pb-6 pt-10 "> Sobre o programa</span>
+                    <p class="text-white text-2xl pb-6 w-[950px] "> O <span class="text-[#0098DA] font-bold">Guarda
+                            Pet</span> é um jeito especial e uma experiência
+                        nova para tornar a adoção de
+                        cães e gatos ainda mais simples e prática. Tudo isso por meio da tecnologia unindo
+                        o coração de quem deseja receber em casa um novo amigo e quem precisa dessa
+                        onda de afeto e cuidados. </p>
+                    <p class="text-white text-2xl pb-6 w-[950px] "> Agora você pode conhecer o bichinho no <span
+                            class="text-[#0098DA] font-bold">conforto da sua casa!</span> A gente faz uma
+                        <span class="text-[#0098DA] font-bold">chamada de vídeo</span> para mostrar o pet que você se
+                        interessou aqui mesmo na nossa
+                        galeria.
+                    </p>
+                    <p class="text-white text-2xl pb-10 w-[950px] "> O mais importante é que esses bichinhos recebam um
+                        lar acolhedor e que juntos
+                        vocês construam muitas histórias lindas para contar!
+                    </p>
+                </div>
+                <div class="w-full flex absolute bottom-[-25px] -left-150">
+                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                </div>
             </div>
 
+        </div>
+        <div class="flex flex-col items-center text-5xl pt-16">
+            <h2 class="text-[#0098DA] font-bold pb-8">Nossas Estrelas</h2>
         </div>
     </home>
 
