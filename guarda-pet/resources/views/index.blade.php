@@ -19,12 +19,12 @@
         <div class="w-[1200px] mx-auto flex items-center justify-between">
             <img class="w-[180px] mt-2" src="{{ asset('img/logo.png') }}" alt="">
             <ul class="">
-                <span class="text-white text-xl font-semibold p-4"">Adote um pet</span>
-                <span class="text-white text-xl font-semibold p-4"">Cadastrar ONG</span>
-                <span class="text-white text-xl font-semibold p-4"">Adotados</span>
-                <span class="text-white text-xl font-semibold p-4"">Transparência Pets</span>
-                <span class="text-white text-xl font-semibold p-4"> <i class="fa-solid fa-right-to-bracket"></i>
-                    Entrar</span>
+                <a href="{{ route('adote') }}" alt='' class="text-white text-xl font-semibold p-4"">Adote um pet</a>
+                <a class="text-white text-xl font-semibold p-4"">Cadastrar ONG</a>
+                <a class="text-white text-xl font-semibold p-4"">Adotados</a>
+                <a class="text-white text-xl font-semibold p-4"">Transparência Pets</a>
+                <a class="text-white text-xl font-semibold p-4"> <i class="fa-solid fa-right-to-bracket"></i>
+                    Entrar</a>
 
             </ul>
         </div>
@@ -58,7 +58,7 @@
                         Clique no botão abaixo e descubra os
                         nossos pets cheios de amor para dar! </p>
                     <a class="w-[460px] h-[75px] bg-[#0098DA] rounded-[12px] flex items-center justify-center"
-                        href="">
+                        href="{{ route('adote') }}">
                         <span class="font-bold text-white text-3xl">Procurar</span>
                     </a>
                 </div>
@@ -195,9 +195,9 @@
     para quem busca momentos de diversão e calmaria.
     Adote e leve essa doçura para casa! 🏡💤"></x-card>
             </div>
-            <div class="w-[390px] h-[60px] bg-[#F58634] flex items-center justify-center rounded-xl m-8">
+            <a href="{{ route('adote') }}"alt='' class="w-[390px] h-[60px] bg-[#F58634] flex items-center justify-center rounded-xl m-8">
                 <span class="text-2xl font-bold text-white">Ver todos</span>
-            </div>
+            </a>
             <span class="text-4xl font-bold text-[#0098DA] mb-8">Fale Conosco</span>
             <div class="w-[1200px] h-[130px] bg-[#71D4FF80] mb-20 rounded-3xl flex justify-between items-center p-10">
                 <div class="flex flex-col">
@@ -206,10 +206,10 @@
                             class="text-[#034C6B]">guardapet@saocristovao.se.gov.br</b>
                     </span>
                 </div>
-                <div class="w-[315px] h-[55px] bg-[#0098DA] rounded-xl flex items-center justify-center ">
+                <a class="w-[315px] h-[55px] bg-[#0098DA] rounded-xl flex items-center justify-center "href="" alt=''>
                     <i class="fa-brands fa-whatsapp text-white text-2xl m-2"></i>
                     <span class="text-white font-medium text-2xl">Whatsapp</span>
-                </div>
+                </a>
             </div>
             <footer class="w-full h-28 bg-[#0098DA] flex items-center justify-center">
                 <span class="text-white text-3xl">Desenvolvido por <b>DITIN</b></span>
@@ -217,6 +217,7 @@
         </div>
     </home>
     <script src="https://kit.fontawesome.com/573e44f26e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </body>
 
 </html>
