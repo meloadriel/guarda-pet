@@ -8,9 +8,13 @@
                 <span class="text-[#0098DA] font-bold text-xl">{{ $nome }}</span>
                 <p class="text-xs text-black/60">{{ $sexo }} * {{ $idade }} * {{ $porte }}</p>
             </div>
-            <div class="w-8 h-8 bg-white border-[#0098DA] border-1 rounded-full flex items-center justify-center">
-                <i class="fa-solid fa-heart text-base text-[#0098DA]"></i>
-            </div>
+            <div x-data="{ favorito: false }"
+    @click="favorito = !favorito"
+    class="w-8 h-8 border-[#0098DA] border-1 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300"
+    :class="favorito ? 'bg-[#0098da]' : 'bg-white'">
+    <i class="fa-solid fa-heart text-base transition-all duration-300"
+       :class="favorito ? 'text-white' : 'text-[#0098DA]'"></i>
+</div>
         </div>
         <div class="mb-2">
             <p class="text-[11px] text-black/80">
@@ -22,6 +26,6 @@
             </span>
         </div>
         <img class="w-[68px] -top-1 -right-0 absolute" src="{{ asset('img/pet.png') }}" alt="">
-    </div>
-    <!-- The biggest battle is the war against ignorance. - Mustafa Kemal Atatürk -->
+    </div>   <!-- The biggest battle is the war against ignorance. - Mustafa Kemal Atatürk -->
 </div>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
