@@ -129,9 +129,93 @@
         </div>
         <div class="flex flex-col items-center text-5xl pt-16">
             <h2 class="text-[#0098DA] font-bold pb-8">Nossas Estrelas</h2>
+            <div class="flex justify-between w-[1200px]">
+                <x-card nome="Yuri Alberto" sexo="Macho" idade="5 Meses" porte="Pequeno"
+                    descricao="Esse gatinho laranjinha é como um raio de sol
+    peludo, cheio de alegria e amor para
+    compartilhar! 🧡🐾
+    Ele é brincalhão, curioso e adora explorar cada
+    cantinho da casa, sempre pronto para correr
+    atrás de bolinhas, brincar de esconde-esconde
+    ou caçar fios soltos. Quando a energia acaba,
+    ele se transforma no mestre da soneca,
+    escolhendo o lugar mais aconchegante – seja
+    uma almofada, o colo de alguém ou até uma
+    pilha de roupas – para adormecer enquanto
+    ronrona baixinho. Um verdadeiro companheiro
+    carinhoso e cheio de personalidade, perfeito
+    para quem busca momentos de diversão e calmaria.
+    Adote e leve essa doçura para casa! 🏡💤"></x-card>
+                <x-card nome="Chico Moedas" sexo="Macho" idade="8 Meses" porte="Pequeno"
+                    descricao="Esse gatinho laranjinha é como um raio de sol
+    peludo, cheio de alegria e amor para
+    compartilhar! 🧡🐾
+    Ele é brincalhão, curioso e adora explorar cada
+    cantinho da casa, sempre pronto para correr
+    atrás de bolinhas, brincar de esconde-esconde
+    ou caçar fios soltos. Quando a energia acaba,
+    ele se transforma no mestre da soneca,
+    escolhendo o lugar mais aconchegante – seja
+    uma almofada, o colo de alguém ou até uma
+    pilha de roupas – para adormecer enquanto
+    ronrona baixinho. Um verdadeiro companheiro
+    carinhoso e cheio de personalidade, perfeito
+    para quem busca momentos de diversão e calmaria.
+    Adote e leve essa doçura para casa! 🏡💤"></x-card>
+                <x-card nome="Chico Moedas" sexo="Macho" idade="8 Meses" porte="Pequeno"
+                    descricao="Esse gatinho laranjinha é como um raio de sol
+    peludo, cheio de alegria e amor para
+    compartilhar! 🧡🐾
+    Ele é brincalhão, curioso e adora explorar cada
+    cantinho da casa, sempre pronto para correr
+    atrás de bolinhas, brincar de esconde-esconde
+    ou caçar fios soltos. Quando a energia acaba,
+    ele se transforma no mestre da soneca,
+    escolhendo o lugar mais aconchegante – seja
+    uma almofada, o colo de alguém ou até uma
+    pilha de roupas – para adormecer enquanto
+    ronrona baixinho. Um verdadeiro companheiro
+    carinhoso e cheio de personalidade, perfeito
+    para quem busca momentos de diversão e calmaria.
+    Adote e leve essa doçura para casa! 🏡💤"></x-card>
+                <x-card nome="Chico Moedas" sexo="Macho" idade="8 Meses" porte="Pequeno"
+                    descricao="Esse gatinho laranjinha é como um raio de sol
+    peludo, cheio de alegria e amor para
+    compartilhar! 🧡🐾
+    Ele é brincalhão, curioso e adora explorar cada
+    cantinho da casa, sempre pronto para correr
+    atrás de bolinhas, brincar de esconde-esconde
+    ou caçar fios soltos. Quando a energia acaba,
+    ele se transforma no mestre da soneca,
+    escolhendo o lugar mais aconchegante – seja
+    uma almofada, o colo de alguém ou até uma
+    pilha de roupas – para adormecer enquanto
+    ronrona baixinho. Um verdadeiro companheiro
+    carinhoso e cheio de personalidade, perfeito
+    para quem busca momentos de diversão e calmaria.
+    Adote e leve essa doçura para casa! 🏡💤"></x-card>
+            </div>
+            <div class="w-[390px] h-[60px] bg-[#F58634] flex items-center justify-center rounded-xl m-8">
+                <span class="text-2xl font-bold text-white">Ver todos</span>
+            </div>
+            <span class="text-4xl font-bold text-[#0098DA] mb-8">Fale Conosco</span>
+            <div class="w-[1200px] h-[130px] bg-[#71D4FF80] mb-20 rounded-3xl flex justify-between items-center p-10">
+                <div class="flex flex-col">
+                    <span class="text-sm font-bold text-[#018bc7]">Nosso Contatos:</span>
+                    <span class="text-sm font-bold text-[#018bc7]">Email:<b
+                            class="text-[#034C6B]">guardapet@saocristovao.se.gov.br</b>
+                    </span>
+                </div>
+                <div class="w-[315px] h-[55px] bg-[#0098DA] rounded-xl flex items-center justify-center ">
+                    <i class="fa-brands fa-whatsapp text-white text-2xl m-2"></i>
+                    <span class="text-white font-medium text-2xl">Whatsapp</span>
+                </div>
+            </div>
+            <footer class="w-full h-28 bg-[#0098DA] flex items-center justify-center">
+                <span class="text-white text-3xl">Desenvolvido por <b>DITIN</b></span>
+            </footer>
         </div>
     </home>
-
     <script src="https://kit.fontawesome.com/573e44f26e.js" crossorigin="anonymous"></script>
 </body>
 
