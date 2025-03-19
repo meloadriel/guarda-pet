@@ -21,10 +21,10 @@
                 {{ $descricao }}
             </p>
         </div>
-        <div class="w-[240px] h-[40px] bg-[#F58634] rounded-sm flex items-center justify-center">
+        <a href="{{ route('pet') }}" alt='botao adoção' class="w-[240px] h-[40px] bg-[#F58634] rounded-sm flex items-center justify-center">
             <span class="text-base font-medium text-white">Em processo de adoção
             </span>
-        </div>
+        </a>
         <img class="w-[68px] -top-1 -right-0 absolute" src="{{ asset('img/pet.png') }}" alt="">
     </div>   <!-- The biggest battle is the war against ignorance. - Mustafa Kemal Atatürk -->
 </div>
