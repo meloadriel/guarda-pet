@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/adote', function () {
     return view('adote');
 })->name('adote');
+Route::get('/pet', function () {
+    return view('pet');
+})->name('pet');
