@@ -15,18 +15,24 @@
 </head>
 
 <body>
-    <header class="w-full h-24 bg-[#F58634] flex  relative overflow-hidden">
-        <div class="w-[1200px] mx-auto flex items-center justify-between">
-            <img class="w-[180px] mt-2" src="{{ asset('img/logo.png') }}" alt="">
-            <ul class="">
-                <a href="{{ route('adote') }}" alt='' class="text-white text-xl font-semibold p-4"">Adote um
-                    pet</a>
-                <a class="text-white text-xl font-semibold p-4"">Cadastrar ONG</a>
-                <a class="text-white text-xl font-semibold p-4"">Adotados</a>
-                <a class="text-white text-xl font-semibold p-4"">Transparência Pets</a>
-                <a class="text-white text-xl font-semibold p-4"> <i class="fa-solid fa-right-to-bracket"></i>
-                    Entrar</a>
+    <header class="w-full h-24 bg-[#F58634] flex relative overflow-hidden">
+        <div class="w-full max-w-[1200px] mx-auto flex justify-center items-center md:justify-between px-4">
+            <a href="{{route('index')}}">
+                <img class="w-[180px] mt-2 " src="{{ asset('img/logo.png') }}" alt="">
+            </a>
 
+            <button id="menu-toggle" class="md:hidden text-white text-2xl absolute right-6">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul id="menu" class="hidden md:flex flex-col md:flex-row md:items-center md:gap-4 absolute md:relative top-24 md:top-auto left-0 w-full md:w-auto bg-[#F58634] md:bg-transparent md:static p-4 md:p-0 z-10">
+                <a href="{{ route('adote') }}" class="text-white text-xl font-semibold p-4">Adote um pet</a>
+                <a class="text-white text-xl font-semibold p-4">Cadastrar ONG</a>
+                <a class="text-white text-xl font-semibold p-4">Adotados</a>
+                <a class="text-white text-xl font-semibold p-4">Transparência Pets</a>
+                <a class="text-white text-xl font-semibold p-4 flex items-center gap-2">
+                    <i class="fa-solid fa-right-to-bracket"></i> Entrar
+                </a>
             </ul>
         </div>
     </header>
