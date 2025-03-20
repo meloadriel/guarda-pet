@@ -15,43 +15,50 @@
 </head>
 
 <body>
-    <header class="w-full h-24 bg-[#F58634] flex  relative overflow-hidden">
-        <div class="w-[1200px] mx-auto flex items-center justify-between">
-            <img class="w-[180px] mt-2" src="{{ asset('img/logo.png') }}" alt="">
-            <ul class="">
-                <a href="{{ route('adote') }}" alt='' class="text-white text-xl font-semibold p-4"">Adote um pet</a>
-                <a class="text-white text-xl font-semibold p-4"">Cadastrar ONG</a>
-                <a class="text-white text-xl font-semibold p-4"">Adotados</a>
-                <a class="text-white text-xl font-semibold p-4"">Transparência Pets</a>
-                <a class="text-white text-xl font-semibold p-4"> <i class="fa-solid fa-right-to-bracket"></i>
-                    Entrar</a>
+    <header class="w-full h-24 bg-[#F58634] flex relative overflow-hidden">
+        <div class="w-full max-w-[1200px] mx-auto flex justify-center items-center md:justify-between px-4">
+            <a href="{{ route('index')}}">
+                <img class="w-[180px] mt-2 " src="{{ asset('img/logo.png') }}" alt="">
+            </a>
 
+            <button id="menu-toggle" class="md:hidden text-white text-2xl absolute right-6">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul id="menu" class="hidden md:flex flex-col md:flex-row md:items-center md:gap-4 absolute md:relative top-24 md:top-auto left-0 w-full md:w-auto bg-[#F58634] md:bg-transparent md:static p-4 md:p-0 z-10">
+                <a href="{{ route('adote') }}" class="text-white text-xl font-semibold p-4">Adote um pet</a>
+                <a class="text-white text-xl font-semibold p-4">Cadastrar ONG</a>
+                <a class="text-white text-xl font-semibold p-4">Adotados</a>
+                <a class="text-white text-xl font-semibold p-4">Transparência Pets</a>
+                <a class="text-white text-xl font-semibold p-4 flex items-center gap-2">
+                    <i class="fa-solid fa-right-to-bracket"></i> Entrar
+                </a>
             </ul>
         </div>
     </header>
-    <home class="bg-[#71D4FF] h-[100vh] flex flex-col">
-        <div class="relative flex w-[1200px] mx-auto items-center justify-between">
-            <div class="flex flex-col ">
-                <span class="text-white font-extrabold text-9xl pb-16"> Guarda Pet <i
-                        class="fa-solid fa-paw text-[#F58634] text-6xl"></i></span>
-                <p class="text-white font-semibold text-2xl pb-4"> Que tal compartilhar amor e cuidados? </p>
-                <p class="text-white font-semibold text-2xl w-[760px] pb-4"> Se você ama animais e quer adotar um
+    <home class="flex flex-col w-full bg-[#71D4FF] ">
+        <div class="relative flex mx-auto items-center md:justify-between lg:w-[1200px]">
+            <div class="flex flex-col">
+                <span class="text-white font-extrabold text-9xl pb-16 hidden md:block"> Guarda Pet <i class="fa-solid fa-paw text-[#F58634] text-6xl"></i></span>
+                <p class="text-white font-semibold text-2xl pb-4 w-[230px] md:w-full"> Que tal compartilhar amor e cuidados? </p>
+                <p class="text-white font-semibold text-lg w-[220px] md:w-[760px] pb-4"> Se você ama animais e quer adotar um
                     cachorrinho ou
                     gatinho, está no lugar certo! </p>
-                <p class="text-white font-semibold text-2xl w-[760px]"> Aqui no Guarda Pet, a Prefeitura de São
+                <p class="text-white font-semibold text-2xl hidden md:block w-[760px]"> Aqui no Guarda Pet, a Prefeitura de São
                     Cristóvão une
                     tecnologia, dedicação e paixão pelos animais para ajudar
                     você a encontrar o companheiro ideal e encher sua vida
                     de amor. </p>
             </div>
-            <img class="mb-10 mt-10"src="{{ asset('img/imagens home.png') }}" alt="">
+            <img class="md:hidden block" src="{{ asset('img/img 1 mobile.png') }}" alt="">
+            <img class="mb-10 mt-10 sm:block hidden"src="{{ asset('img/imagens home.png') }}" alt="">
             <div class="w-full flex absolute bottom-[-25px] -left-150">
                 <img class="" src="{{ asset('img/div patas.png') }}" alt="">
                 <img class="" src="{{ asset('img/div patas.png') }}" alt="">
             </div>
         </div>
         <div class="flex w-[100%] h-[100vh] bg-[#FFB178]">
-            <div class="flex w-[1200px] mx-auto justify-between relative items-center">
+            <div class="flex lg:w-[1200px] w-full mx-auto justify-between relative items-center">
                 <div class="flex flex-col">
                     <span class="text-white font-bold text-4xl pb-6"> Quero Adotar um animalzinho </span>
                     <p class="text-white text-2xl pb-4 w-[513px]"> Procurando um novo amigo para adoção?
@@ -71,7 +78,7 @@
 
         </div>
         <div class="flex w-[100%] h-[100vh] bg-[#71D4FF]">
-            <div class="flex w-[1200px] mx-auto justify-between relative items-center">
+            <div class="flex lg:w-[1200px] w-full mx-auto justify-between relative items-center">
                 <div class="flex flex-col items-center">
                     <span class="text-white font-bold text-4xl pb-6 w-[500px] text-center"> Sou cidadão e quero
                         cadastrar um pet
@@ -100,7 +107,7 @@
             </div>
         </div>
         <div class="flex w-[100%] h-[100vh] bg-[#FFB178]">
-            <div class="flex w-[1200px] mx-auto justify-center relative items-center">
+            <div class="flex lg:w-[1200px] w-full mx-auto justify-center relative items-center">
                 <div class="flex flex-col items-center">
                     <span class="text-white font-bold text-4xl pb-6 pt-10 "> Sobre o programa</span>
                     <p class="text-white text-2xl pb-6 w-[950px] "> O <span class="text-[#0098DA] font-bold">Guarda
@@ -129,7 +136,7 @@
         </div>
         <div class="flex flex-col items-center text-5xl pt-16">
             <h2 class="text-[#0098DA] font-bold pb-8">Nossas Estrelas</h2>
-            <div class="flex justify-between w-[1200px]">
+            <div class="flex justify-between lg:w-[1200px] w-full">
                 <x-card nome="Yuri Alberto" sexo="Macho" idade="5 Meses" porte="Pequeno"
                     descricao="Esse gatinho laranjinha é como um raio de sol
     peludo, cheio de alegria e amor para
