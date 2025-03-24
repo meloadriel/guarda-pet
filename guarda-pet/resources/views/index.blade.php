@@ -38,7 +38,7 @@
         </div>
     </header>
     <home class="flex flex-col w-full ">
-        <div class="flex w-[100%] h-fit bg-[#71D4FF] p-4 py-8">
+        <div class="flex w-[100%] h-fit bg-[#71D4FF] p-4 py-8 md:p-0">
             <div class="w-full relative flex md:mx-auto items-center md:justify-between lg:w-[1200px]">
                 <div class="flex flex-col">
                     <span class="text-white font-extrabold text-9xl pb-16 hidden md:block"> Guarda Pet <i
@@ -60,17 +60,35 @@
                 </div>
                 <img class="md:hidden block absolute right-0" src="{{ asset('img/img 1 mobile.png') }}" alt="">
                 <img class="mb-10 mt-10 sm:block hidden"src="{{ asset('img/imagens home.png') }}" alt="">
-                <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-10 ">
+                <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-10">
                     <img class="hidden md:block" src="{{ asset('img/div patas.png') }}" alt="">
-                    <img class="scale-180" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="md:scale-100 scale-180" src="{{ asset('img/div patas.png') }}" alt="">
                 </div>
             </div>
         </div>
-        <div class="flex w-[100%]  h-fit bg-[#FFB178]">
+        <div class=" w-[100%] h-fit bg-[#ffb178] py-10 md:hidden flex ">
+            <div class="w-full relative flex items-center justify-end">
+                <div class="flex flex-col py-10">
+                    <p class="text-white font-semibold text-sm w-[210px] "> Aqui no <b class="text-[#71d4ff]">Guarda Pet</b>, a
+                        Prefeitura de São
+                        Cristóvão une
+                        tecnologia, dedicação e paixão pelos animais para ajudar
+                        você a encontrar o companheiro ideal e encher sua vida
+                        de amor. </p>
+                </div>
+                <img class="md:hidden block absolute left-0" src="{{ asset('img/img 2 mobile.png') }}" alt="">
+                <img class="mb-10 mt-10 sm:block hidden"src="{{ asset('img/imagens home.png') }}" alt="">
+                <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-12">
+                    <img class="hidden md:block" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="md:scale-100 scale-180 rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="flex w-[100%]  h-fit md:bg-[#ffb178] bg-[#71d4ff] p-4 md:p-0">
             <div class="flex lg:w-[1200px] w-full mx-auto justify-between relative items-center">
                 <div class="flex flex-col">
-                    <span class="text-white font-bold text-4xl pb-6"> Quero Adotar um animalzinho </span>
-                    <p class="text-white text-2xl pb-4 w-[513px]"> Procurando um novo amigo para adoção?
+                    <span class="text-white font-bold md:text-4xl md:pb-6"> Quero Adotar um animalzinho </span>
+                    <p class="text-white md:text-2xl md:pb-4 md:w-[513px]"> Procurando um novo amigo para adoção?
                         Clique no botão abaixo e descubra os
                         nossos pets cheios de amor para dar! </p>
                     <a class="w-[460px] h-[75px] bg-[#0098DA] rounded-[12px] flex items-center justify-center"
