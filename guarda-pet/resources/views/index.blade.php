@@ -163,35 +163,36 @@
         </div>
         <div class="flex w-[100%] h-fit bg-[#FFB178]">
             <div class="flex lg:w-[1200px] w-full mx-auto justify-center relative items-center">
-                <div class="flex flex-col items-center">
-                    <span class="text-white font-bold text-4xl pb-6 pt-10 "> Sobre o programa</span>
-                    <p class="text-white text-2xl pb-6 w-[950px] "> O <span class="text-[#0098DA] font-bold">Guarda
+                <div class="flex flex-col items-center gap-4">
+                    <span class="text-white font-bold md:text-4xl md:pb-6 md:pt-10 text-3xl pt-8  "> Sobre o programa</span>
+                    <p class="text-white md:text-2xl md:pb-6 md:w-[950px] text-lg w-[380px]"> O <span class="text-[#0098DA] font-bold">Guarda
                             Pet</span> é um jeito especial e uma experiência
                         nova para tornar a adoção de
                         cães e gatos ainda mais simples e prática. Tudo isso por meio da tecnologia unindo
                         o coração de quem deseja receber em casa um novo amigo e quem precisa dessa
                         onda de afeto e cuidados. </p>
-                    <p class="text-white text-2xl pb-6 w-[950px] "> Agora você pode conhecer o bichinho no <span
+                    <p class="text-white md:text-2xl md:pb-6 md:w-[950px] text-lg w-[380px]"> Agora você pode conhecer o bichinho no <span
                             class="text-[#0098DA] font-bold">conforto da sua casa!</span> A gente faz uma
                         <span class="text-[#0098DA] font-bold">chamada de vídeo</span> para mostrar o pet que você se
                         interessou aqui mesmo na nossa
                         galeria.
                     </p>
-                    <p class="text-white text-2xl pb-10 w-[950px] "> O mais importante é que esses bichinhos recebam um
+                    <p class="text-white md:text-2xl md:pb-10 md:w-[950px] text-lg w-[380px] pb-8"> O mais importante é que esses bichinhos recebam um
                         lar acolhedor e que juntos
                         vocês construam muitas histórias lindas para contar!
                     </p>
                 </div>
-                <div class="w-full flex absolute bottom-[-25px] -left-150">
-                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
-                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-2">
+                    <img class="hidden md:block rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="md:scale-100 scale-180 rotate-180 "
+                        src="{{ asset('img/div patas.png') }}" alt="">
                 </div>
             </div>
 
         </div>
         <div class="flex flex-col items-center text-5xl pt-16 bg-white">
             <h2 class="text-[#0098DA] font-bold pb-8">Nossas Estrelas</h2>
-            <div class="flex justify-between lg:w-[1200px] w-full">
+            <div class="flex md:flex-row  flex-col md:justify-between lg:w-[1200px] w-full items-center gap-6">
                 <x-card nome="Yuri Alberto" sexo="Macho" idade="5 Meses" porte="Pequeno"
                     descricao="Esse gatinho laranjinha é como um raio de sol
     peludo, cheio de alegria e amor para
@@ -258,13 +259,13 @@
     Adote e leve essa doçura para casa! 🏡💤"></x-card>
             </div>
             <a href="{{ route('adote') }}"alt=''
-                class="w-[390px] h-[60px] bg-[#F58634] flex items-center justify-center rounded-xl m-8">
-                <span class="text-2xl font-bold text-white">Ver todos</span>
+                class="w-[160px] h-[35px] md:w-[390px] md:h-[60px] bg-[#F58634] flex items-center justify-center rounded-xl m-8">
+                <span class="md:text-2xl md:font-bold text-white text-base">Ver todos</span>
             </a>
             <span class="text-4xl font-bold text-[#0098DA] mb-8">Fale Conosco</span>
-            <div class="w-[1200px] h-[130px] bg-[#71D4FF80] mb-20 rounded-3xl flex justify-between items-center p-10">
+            <div class="relative w-[380px] h-[190px] md:w-[1200px] md:h-[130px] bg-[#71D4FF80] mb-20 rounded-xl md:rounded-3xl flex md:flex-row flex-col md:justify-between md:items-center md:p-10 items-center justify-center gap-8">
                 <div class="flex flex-col">
-                    <span class="text-sm font-bold text-[#018bc7]">Nosso Contatos:</span>
+                    <span class="md:relative absolute text-sm font-bold top-3 left-4 text-[#018bc7]">Nosso Contatos:</span>
                     <span class="text-sm font-bold text-[#018bc7]">Email:<b
                             class="text-[#034C6B]">guardapet@saocristovao.se.gov.br</b>
                     </span>
