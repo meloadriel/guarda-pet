@@ -69,7 +69,8 @@
         <div class=" w-[100%] h-fit bg-[#ffb178] py-10 md:hidden flex ">
             <div class="w-full relative flex items-center justify-end">
                 <div class="flex flex-col py-10">
-                    <p class="text-white font-semibold text-sm w-[210px] "> Aqui no <b class="text-[#71d4ff]">Guarda Pet</b>, a
+                    <p class="text-white font-semibold text-sm w-[210px] "> Aqui no <b class="text-[#71d4ff]">Guarda
+                            Pet</b>, a
                         Prefeitura de São
                         Cristóvão une
                         tecnologia, dedicação e paixão pelos animais para ajudar
@@ -80,45 +81,55 @@
                 <img class="mb-10 mt-10 sm:block hidden"src="{{ asset('img/imagens home.png') }}" alt="">
                 <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-12">
                     <img class="hidden md:block" src="{{ asset('img/div patas.png') }}" alt="">
-                    <img class="md:scale-100 scale-180 rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="md:scale-100 scale-180 rotate-180" src="{{ asset('img/div patas.png') }}"
+                        alt="">
                 </div>
             </div>
         </div>
-        <div class="flex w-[100%]  h-fit md:bg-[#ffb178] bg-[#71d4ff] p-4 md:p-0">
-            <div class="flex lg:w-[1200px] w-full mx-auto justify-between relative items-center">
-                <div class="flex flex-col">
-                    <span class="text-white font-bold md:text-4xl md:pb-6"> Quero Adotar um animalzinho </span>
-                    <p class="text-white md:text-2xl md:pb-4 md:w-[513px]"> Procurando um novo amigo para adoção?
+        <div class="flex w-[100%]  h-fit md:bg-[#ffb178] bg-[#71d4ff] py-8 md:p-0">
+            <div class="flex md:flex-row flex-col lg:w-[1200px] w-full mx-auto justify-between relative items-center">
+                <div class="flex flex-col items-center gap-3">
+                    <span class="text-white font-bold md:text-4xl md:pb-6 text-center md:text-start"> Quero Adotar um
+                        animalzinho </span>
+                    <p
+                        class="text-white text-base md:text-2xl md:pb-4 md:w-[513px] w-[320px] text-center md:text-start">
+                        Procurando um novo amigo para adoção?
                         Clique no botão abaixo e descubra os
                         nossos pets cheios de amor para dar! </p>
-                    <a class="w-[460px] h-[75px] bg-[#0098DA] rounded-[12px] flex items-center justify-center"
+                    <a class="w-[290px] h-[60px] md:w-[460px] md:h-[75px] md:m-0 m-2 bg-[#F58634] md:bg-[#0098DA] rounded-[12px] flex items-center justify-center"
                         href="{{ route('adote') }}">
                         <span class="font-bold text-white text-3xl">Procurar</span>
                     </a>
                 </div>
                 <img class="pt-5 " src="{{ asset('img/adota 1.png') }}" alt="">
-                <div class="w-full flex absolute bottom-[-25px] -left-150">
-                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
-                    <img class="rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-10">
+                    <img class="hidden md:block md:rotate-180" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="md:scale-100 scale-180 md:rotate-180 " src="{{ asset('img/div patas.png') }}"
+                        alt="">
                 </div>
             </div>
 
         </div>
-        <div class="flex w-[100%]  h-fit bg-[#71D4FF]">
-            <div class="flex lg:w-[1200px] w-full mx-auto justify-between relative items-center">
-                <div class="flex flex-col items-center">
-                    <span class="text-white font-bold text-4xl pb-6 w-[500px] text-center"> Sou cidadão e quero
+        <div class="flex w-[100%]  h-fit md:bg-[#71d4ff] bg-[#ffb178]  md:p-0">
+            <div class="flex lg:w-[1200px] w-full mx-auto md:justify-between justify-center relative items-center ">
+                <div class="flex flex-col md:items-center items-start p-4 md:p-0 md:mt-0 md:mb-0 mt-10 mb-50">
+                    <span class="text-white font-bold md:text-4xl md:pb-6 md:w-[500px] text-center w-[350px] text-4xl">
+                        Sou cidadão e quero
                         cadastrar um pet
                         para adoção </span>
-                    <a class="w-[445px] h-[70px] bg-[#F58634] rounded-[12px] flex items-center justify-center mb-6"
-                        href="">
-                        <span class="font-bold text-white text-3xl">Acessar</span>
-                    </a>
-                    <p class="text-white text-2xl pb-4 w-[340px] text-center"> Veja aqui como colocar
-                        um animalzinho para adoção. </p>
+                    <div class="flex flex-col items-center">
+                        <a class="md:w-[445px] md:h-[70px] md:bg-[#F58634] bg-[#0098DA] rounded-[12px] flex items-center justify-center md:mt-0 mt-10 mb-2 md:mb-6 w-[230px] h-[50px]"
+                            href="">
+                            <span class="font-bold text-white md:text-3xl text-xl">Acessar</span>
+                        </a>
+                        <p class="text-white md:text-2xl md:pb-4 md:w-[340px] text-center w-[230px] text-base"> Veja
+                            aqui como colocar
+                            um animalzinho para adoção. </p>
+                    </div>
                 </div>
-                <img class="" src="{{ asset('img/adota 2.png') }}" alt="">
-                <div class="flex flex-col items-center">
+                <img class="md:relative absolute md:right-0 -right-4 -bottom-5 md:-bottom-4 "
+                    src="{{ asset('img/adota 2.png') }}" alt="">
+                <div class="md:flex md:flex-col items-center hidden md:block">
                     <span class="text-white font-bold text-4xl pb-6 text-center"> Conecta São Cristóvão </span>
                     <a class="w-[445px] h-[70px] bg-[#F58634] rounded-[12px] flex items-center justify-center mb-6"
                         href="">
@@ -127,9 +138,26 @@
                     <p class="text-white text-2xl w-[325px] text-center"> Veja aqui todos os serviços para o seu
                         pet </p>
                 </div>
-                <div class="w-full flex absolute bottom-[-25px] -left-150">
-                    <img class="" src="{{ asset('img/div patas.png') }}" alt="">
-                    <img class="" src="{{ asset('img/div patas.png') }}" alt="">
+                <div class="w-full flex absolute md:bottom-[-25px] md:-left-150 -bottom-2">
+                    <img class="hidden md:block" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="md:scale-100 scale-180 md:rotate-0 rotate-180 "
+                        src="{{ asset('img/div patas.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class=" flex w-[100%]  h-fit md:hidden  bg-[#71d4ff] p-4 py-16 ">
+            <div class="items-center flex flex-col gap-6 relative">
+                <span class="text-white font-bold text-4xl text-center"> Conecta São Cristóvão </span>
+                <p class="text-white font-light text-xl w-[280px] text-center"> Veja aqui todos os serviços para o seu
+                    pet </p>
+                <a class="w-[280px] h-[55px] bg-[#F58634] rounded-[12px] flex items-center justify-center"
+                    href="">
+                    <span class="font-bold text-white text-2xl">Acessar</span>
+                </a>
+                <div class="w-full flex absolute md:-left-150 -bottom-18">
+                    <img class="hidden md:block" src="{{ asset('img/div patas.png') }}" alt="">
+                    <img class="scale-180 "
+                        src="{{ asset('img/div patas.png') }}" alt="">
                 </div>
             </div>
         </div>
