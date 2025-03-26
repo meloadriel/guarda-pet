@@ -36,8 +36,8 @@
             </ul>
         </div>
     </header>
-    <div class="w-full h-[100vh] bg-white flex flex-col gap-16">
-        <div class="flex w-[1200px] justify-start mx-auto items-start gap-16 pt-16">
+    <div class="w-full  bg-white flex flex-col gap-6 md:gap-16">
+        <div class="flex md:flex-row flex-col md:w-[1200px] md:justify-start mx-auto items-start md:gap-16 pt-16 px-6 md:px-0">
             <div class="flex flex-col items-center justify-center">
                 <img class="rounded-2xl mb-4" src="{{ asset('img/gato.png') }}" alt="">
                 <div class="flex gap-4">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex w-[1200px] justify-start mx-auto flex-col">
+        <div class="flex md:w-[1200px] justify-start mx-auto flex-col px-6">
             <span class="text-[#0098DA] font-bold text-3xl mb-4">Sobre o pet</span>
             <p class="text-base mb-8">Esse gatinho laranjinha é como um raio de sol peludo, cheio de alegria e amor para compartilhar! 🧡🐾
                 Ele é brincalhão, curioso e adora explorar cada cantinho da casa, sempre pronto para correr atrás de bolinhas, brincar de esconde-esconde
@@ -75,7 +75,7 @@
             <span class="text-white font-medium text-lg">Quero adotar</span>
         </a>
     </div>
-    <footer class="w-full h-28 bg-[#0098DA] flex items-center justify-center">
+    <footer class="w-full h-28 bg-[#0098DA] flex items-center justify-center mt-6">
         <span class="text-white text-3xl">Desenvolvido por <b>DITIN</b></span>
     </footer>
     <script src="https://kit.fontawesome.com/573e44f26e.js" crossorigin="anonymous"></script>
