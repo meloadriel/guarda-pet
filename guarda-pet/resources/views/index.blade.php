@@ -265,7 +265,7 @@
             <span class="text-4xl font-bold text-[#0098DA] mb-8">Fale Conosco</span>
             <div class="relative w-[380px] h-[190px] md:w-[1200px] md:h-[130px] bg-[#71D4FF80] mb-20 rounded-xl md:rounded-3xl flex md:flex-row flex-col md:justify-between md:items-center md:p-10 items-center justify-center gap-8">
                 <div class="flex flex-col">
-                    <span class="md:relative absolute text-sm font-bold top-3 left-4 text-[#018bc7]">Nosso Contatos:</span>
+                    <span class="md:relative absolute text-sm font-bold md:top-0 md:left-0 top-3 left-4 text-[#018bc7]">Nosso Contatos:</span>
                     <span class="text-sm font-bold text-[#018bc7]">Email:<b
                             class="text-[#034C6B]">guardapet@saocristovao.se.gov.br</b>
                     </span>

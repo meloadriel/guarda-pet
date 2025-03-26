@@ -40,7 +40,7 @@
         <span class="text-white text-3xl font-bold">Adote um pet</span>
     </div>
     <home class="flex flex-col items-center text-5xl pt-16">
-        <div class="w-[1200px] flex flex-wrap justify-center gap-2 pb-16">
+        <div class="md:w-[1200px] flex flex-wrap justify-center gap-4 md:gap-2 pb-16">
             <x-card nome="Chico Moedas" sexo="Macho" idade="8 Meses" porte="Pequeno"
                 descricao="Esse gatinho laranjinha é como um raio de sol
 peludo, cheio de alegria e amor para
